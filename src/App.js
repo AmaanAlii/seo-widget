@@ -59,8 +59,8 @@ function App() {
       method: "get",
       url: `https://api.dataforseo.com/v3/on_page/summary/${taskId}`,
       auth: {
-        username: "ali.officialmail.in@gmail.com", // Replace with your DataForSEO username
-        password: "a586360c2d0d2d2f", // Replace with your DataForSEO password
+        username: "thebrocode.in@gmail.com", // Replace with your DataForSEO username
+        password: "4f5595be12b6cd9d", // Replace with your DataForSEO password
       },
       headers: {
         "content-type": "application/json",
@@ -101,8 +101,8 @@ function App() {
         method: "post",
         url: "https://api.dataforseo.com/v3/on_page/task_post",
         auth: {
-          username: "ali.officialmail.in@gmail.com", // Replace with your DataForSEO username
-          password: "a586360c2d0d2d2f", // Replace with your DataForSEO password
+          username: "thebrocode.in@gmail.com", // Replace with your DataForSEO username
+          password: "4f5595be12b6cd9d", // Replace with your DataForSEO password
         },
         data: post_data,
         headers: {
