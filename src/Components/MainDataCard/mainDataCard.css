@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1050px) {
+  .main-data-card {
+    width: 90% !important;
+  }
+}
+
+.main-data-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgb(77, 113, 255);
+  width: 20%;
+  height: 10vh;
+  border-radius: 10px;
+}
+
+.main-data-score {
+  font-size: 28px;
+  color: rgb(253, 253, 253);
+}
+
+.main-data-heading {
+  margin-top: 10px;
+  color: white;
+  font-size: 24px;
+}
